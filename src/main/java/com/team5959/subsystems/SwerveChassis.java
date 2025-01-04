@@ -33,7 +33,6 @@ public class SwerveChassis extends SubsystemBase{
 
     //instantiate navx 
     navx = new AHRS();
-   // navx.zeroYaw();
     navx.setAngleAdjustment(180);
 
     //instantiate odometer 
